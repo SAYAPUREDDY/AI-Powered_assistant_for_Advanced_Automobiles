@@ -1,4 +1,3 @@
-
 import pyttsx3
 import speech_recognition as sr
 from langchain_community.vectorstores import FAISS
