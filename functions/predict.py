@@ -41,7 +41,7 @@ def user_context_finder(vectorstore,user_input):
     response = rag_chain.invoke({"input": user_input})
     return response["answer"]
 
-def weather_answer_chain(weather_report,user_input,city):
+def weather_answer_chain(weather_report,city):
         model = genai.GenerativeModel("gemini-1.5-flash")
         while True:
         # Get user input
