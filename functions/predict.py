@@ -51,7 +51,7 @@ def user_context_finder(vectorstore,user_input):
         "You are an assistant for question-answering tasks. "
         "Use the following pieces of retrieved context to answer "
         "the question. If you don't know the answer, say that you "
-        "don't know. Just choose the answers between weather,travelguide,entertainment"
+        "don't know. Just choose the answers between weather,travel guide,entertainment"
         "\n\n"
         "{context}"
     )

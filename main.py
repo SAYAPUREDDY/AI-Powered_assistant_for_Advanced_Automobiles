@@ -48,7 +48,7 @@ if __name__ == '__main__':
         embedding=GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
         vectorstore = FAISS.load_local("data/knowledge_base", embedding,allow_dangerous_deserialization=True)
         response=predict.user_context_finder(vectorstore,user_input)
-        response=response.strip()
+        response=response.lower.strip()
 
 
         if response == "Weather":
@@ -70,7 +70,7 @@ if __name__ == '__main__':
                             response=predict.weather_answer_chain(weather_report,user_input,location)
                             print(response)
                             speak(response)
-                            time.sleep(2)
+                            time.sleep(5)
                             if user_input.lower() in ["exit", "quit", "stop"]:
                                 print("Assistant: Goodbye! Have a nice day!")
                                 break
@@ -78,4 +78,5 @@ if __name__ == '__main__':
                 elif "no" in user_input:
                      print("Okay , is there anything that i can help u with?")
                      speak("Okay, is there anything that I can help you with?")
+        elif response == ""
                          
