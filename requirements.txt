@@ -1,0 +1,9 @@
+google-generativeai
+langchain
+pyttsx3
+speechrecognition
+langchain_community
+langchain_google_genai
+langchain_chroma
+python-dotenv
+faiss-cpu
