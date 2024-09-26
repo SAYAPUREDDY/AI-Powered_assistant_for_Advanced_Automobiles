@@ -1,0 +1,305 @@
+<<<<<<< HEAD
+Query,Class
+How is the current temperature?,Weather
+Is it raining right now?,Weather
+What is the weather forecast for today?,Weather
+Will it snow during my drive?,Weather
+What is the weather like at my destination?,Weather
+Are there any weather alerts in my area?,Weather
+How is the visibility on the road?,Weather
+Will it rain later today?,Weather
+What time will the rain start?,Weather
+Is there a chance of severe weather today?,Weather
+What are the road conditions right now?,Weather
+Will there be any fog this evening?,Weather
+What is the humidity level currently?,Weather
+Are there any thunderstorms expected?,Weather
+What is the UV index for today?,Weather
+What is the wind speed right now?,Weather
+Is there a chance of hail during my trip?,Weather
+How much snow is expected?,Weather
+What is the best time to travel based on the weather?,Weather
+What is the temperature like at my destination right now?,Weather
+Will the weather be clear tomorrow?,Weather
+Are there any flood warnings in effect?,Weather
+What is the pollen count today?,Weather
+Is it a good day for a road trip?,Weather
+What are the weather conditions at my next stop?,Weather
+Can you give me a weather update for the next few hours?,Weather
+What is the temperature forecast for the weekend?,Weather
+Is there a blizzard warning for the area?,Weather
+How is the air quality in this region?,Weather
+What is the chance of rain tomorrow?,Weather
+Will it be windy while I'm driving?,Weather
+How is the weather affecting traffic conditions?,Weather
+What is the forecast for my route?,Weather
+Is there a chance of thunderstorms this afternoon?,Weather
+What is the weather like in [City]?,Weather
+How do the current weather conditions affect my travel plans?,Weather
+What are the historical weather patterns for this time of year?,Weather
+Are there any weather updates I should be aware of?,Weather
+What time should I leave to avoid the rain?,Weather
+Can you check the radar for storm activity?,Weather
+Is there a heat advisory in effect?,Weather
+How cold will it get tonight?,Weather
+Are there any warnings for icy roads?,Weather
+What is the expected weather for my arrival time?,Weather
+What are the chances of a snowstorm this week?,Weather
+Will it be a sunny day tomorrow?,Weather
+What is the best route considering current weather conditions?,Weather
+What is the latest weather report?,Weather
+Are there any wildfires affecting air quality?,Weather
+What is the current wind chill factor?,Weather
+Find a nearby restaurant.,Travel Guide
+What are some popular attractions in this area?,Travel Guide
+Where is the closest gas station?,Travel Guide
+Can you recommend a hotel nearby?,Travel Guide
+What is a good place to grab coffee?,Travel Guide
+Are there any local events happening today?,Travel Guide
+What is the best route to the nearest park?,Travel Guide
+Where can I find a grocery store?,Travel Guide
+What is the closest charging station for electric cars?,Travel Guide
+Can you suggest a historical site to visit?,Travel Guide
+What are the top-rated attractions in [City]?,Travel Guide
+Where can I find a pharmacy?,Travel Guide
+What is a good place for breakfast?,Travel Guide
+Are there any food trucks nearby?,Travel Guide
+Can you find an ATM near me?,Travel Guide
+What is the best way to get to [Destination]?,Travel Guide
+Where can I get some local souvenirs?,Travel Guide
+Can you suggest a scenic route to my destination?,Travel Guide
+What is the nearest train station?,Travel Guide
+Are there any pet-friendly hotels in this area?,Travel Guide
+What is a good local market to visit?,Travel Guide
+Where is the nearest rest area?,Travel Guide
+Are there any guided tours available around here?,Travel Guide
+What are the best hiking trails nearby?,Travel Guide
+Where can I find a bike rental?,Travel Guide
+What are some popular nightlife spots?,Travel Guide
+Can you recommend a local brewery?,Travel Guide
+What is the nearest museum?,Travel Guide
+Where can I find live music tonight?,Travel Guide
+Are there any parks with playgrounds nearby?,Travel Guide
+What is the best seafood restaurant around here?,Travel Guide
+Where can I find public transportation options?,Travel Guide
+What is a good place to watch the sunset?,Travel Guide
+Are there any festivals happening this weekend?,Travel Guide
+What is the nearest bowling alley?,Travel Guide
+Where can I find a local gym?,Travel Guide
+Can you recommend a family-friendly attraction?,Travel Guide
+What is the best place to take kids in this area?,Travel Guide
+Where can I find an ice cream shop?,Travel Guide
+What are the top-rated coffee shops around here?,Travel Guide
+Are there any interesting art galleries nearby?,Travel Guide
+Where can I get a haircut?,Travel Guide
+What is the closest shopping mall?,Travel Guide
+Are there any nature reserves nearby?,Travel Guide
+What is a good spot for a picnic?,Travel Guide
+Where can I find a farmers market?,Travel Guide
+Are there any historical landmarks I should visit?,Travel Guide
+What is the best way to explore this city?,Travel Guide
+Where can I find a local guide?,Travel Guide
+What are the best viewpoints in the area?,Travel Guide
+Play some music.,Entertainment
+Can you find a good podcast?,Entertainment
+What are the top songs right now?,Entertainment
+Play the latest hits.,Entertainment
+Can you recommend an audiobook?,Entertainment
+Find me a radio station that plays classic rock.,Entertainment
+What is trending in music right now?,Entertainment
+Play something relaxing for this drive.,Entertainment
+What are the best songs from the 80s?,Entertainment
+Can you play a comedy podcast?,Entertainment
+What is a good playlist for a road trip?,Entertainment
+Play some jazz music.,Entertainment
+Can you find me a thrilling audiobook?,Entertainment
+What is a good soundtrack for a long drive?,Entertainment
+Play a mix of popular songs.,Entertainment
+Can you suggest some indie music?,Entertainment
+What are some classic movies I should watch?,Entertainment
+Find me an interesting documentary.,Entertainment
+Can you play some motivational speeches?,Entertainment
+What is a good series to binge-watch?,Entertainment
+What is the latest news podcast?,Entertainment
+Can you play some acoustic music?,Entertainment
+What is a good playlist for night driving?,Entertainment
+Play some instrumental music.,Entertainment
+Can you recommend a romantic comedy film?,Entertainment
+What are some top-rated TV shows right now?,Entertainment
+Find me a playlist for working out.,Entertainment
+What is a good horror movie to watch?,Entertainment
+Can you find some relaxing soundscapes?,Entertainment
+What is the latest in pop culture?,Entertainment
+Can you play some classic country songs?,Entertainment
+What are some good playlists for studying?,Entertainment
+Can you find a podcast about true crime?,Entertainment
+Play some upbeat dance music.,Entertainment
+What is a good playlist for a family road trip?,Entertainment
+Can you suggest a feel-good movie?,Entertainment
+What are some must-watch documentaries?,Entertainment
+Find me a playlist for rainy days.,Entertainment
+What are the top comedy specials available?,Entertainment
+Can you play some world music?,Entertainment
+What is a good podcast for learning something new?,Entertainment
+Can you recommend a fantasy novel?,Entertainment
+What is a good playlist for relaxation?,Entertainment
+Find me a cooking show to watch.,Entertainment
+What are some popular streaming shows right now?,Entertainment
+Can you suggest a music festival happening soon?,Entertainment
+Play some oldies but goodies.,Entertainment
+What is the latest buzz in entertainment news?,Entertainment
+Can you find me an inspiring audiobook?,Entertainment
+What are some good playlists for long drives?,Entertainment
+=======
+Query,Class
+How is the current temperature?,Weather
+Is it raining right now?,Weather
+What is the weather forecast for today?,Weather
+Will it snow during my drive?,Weather
+What is the weather like at my destination?,Weather
+Are there any weather alerts in my area?,Weather
+How is the visibility on the road?,Weather
+Will it rain later today?,Weather
+What time will the rain start?,Weather
+Is there a chance of severe weather today?,Weather
+What are the road conditions right now?,Weather
+Will there be any fog this evening?,Weather
+What is the humidity level currently?,Weather
+Are there any thunderstorms expected?,Weather
+What is the UV index for today?,Weather
+What is the wind speed right now?,Weather
+Is there a chance of hail during my trip?,Weather
+How much snow is expected?,Weather
+What is the best time to travel based on the weather?,Weather
+What is the temperature like at my destination right now?,Weather
+Will the weather be clear tomorrow?,Weather
+Are there any flood warnings in effect?,Weather
+What is the pollen count today?,Weather
+Is it a good day for a road trip?,Weather
+What are the weather conditions at my next stop?,Weather
+Can you give me a weather update for the next few hours?,Weather
+What is the temperature forecast for the weekend?,Weather
+Is there a blizzard warning for the area?,Weather
+How is the air quality in this region?,Weather
+What is the chance of rain tomorrow?,Weather
+Will it be windy while I'm driving?,Weather
+How is the weather affecting traffic conditions?,Weather
+What is the forecast for my route?,Weather
+Is there a chance of thunderstorms this afternoon?,Weather
+What is the weather like in [City]?,Weather
+How do the current weather conditions affect my travel plans?,Weather
+What are the historical weather patterns for this time of year?,Weather
+Are there any weather updates I should be aware of?,Weather
+What time should I leave to avoid the rain?,Weather
+Can you check the radar for storm activity?,Weather
+Is there a heat advisory in effect?,Weather
+How cold will it get tonight?,Weather
+Are there any warnings for icy roads?,Weather
+What is the expected weather for my arrival time?,Weather
+What are the chances of a snowstorm this week?,Weather
+Will it be a sunny day tomorrow?,Weather
+What is the best route considering current weather conditions?,Weather
+What is the latest weather report?,Weather
+Are there any wildfires affecting air quality?,Weather
+What is the current wind chill factor?,Weather
+Find a nearby restaurant.,Travel Guide
+What are some popular attractions in this area?,Travel Guide
+Where is the closest gas station?,Travel Guide
+Can you recommend a hotel nearby?,Travel Guide
+What is a good place to grab coffee?,Travel Guide
+Are there any local events happening today?,Travel Guide
+What is the best route to the nearest park?,Travel Guide
+Where can I find a grocery store?,Travel Guide
+What is the closest charging station for electric cars?,Travel Guide
+Can you suggest a historical site to visit?,Travel Guide
+What are the top-rated attractions in [City]?,Travel Guide
+Where can I find a pharmacy?,Travel Guide
+What is a good place for breakfast?,Travel Guide
+Are there any food trucks nearby?,Travel Guide
+Can you find an ATM near me?,Travel Guide
+What is the best way to get to [Destination]?,Travel Guide
+Where can I get some local souvenirs?,Travel Guide
+Can you suggest a scenic route to my destination?,Travel Guide
+What is the nearest train station?,Travel Guide
+Are there any pet-friendly hotels in this area?,Travel Guide
+What is a good local market to visit?,Travel Guide
+Where is the nearest rest area?,Travel Guide
+Are there any guided tours available around here?,Travel Guide
+What are the best hiking trails nearby?,Travel Guide
+Where can I find a bike rental?,Travel Guide
+What are some popular nightlife spots?,Travel Guide
+Can you recommend a local brewery?,Travel Guide
+What is the nearest museum?,Travel Guide
+Where can I find live music tonight?,Travel Guide
+Are there any parks with playgrounds nearby?,Travel Guide
+What is the best seafood restaurant around here?,Travel Guide
+Where can I find public transportation options?,Travel Guide
+What is a good place to watch the sunset?,Travel Guide
+Are there any festivals happening this weekend?,Travel Guide
+What is the nearest bowling alley?,Travel Guide
+Where can I find a local gym?,Travel Guide
+Can you recommend a family-friendly attraction?,Travel Guide
+What is the best place to take kids in this area?,Travel Guide
+Where can I find an ice cream shop?,Travel Guide
+What are the top-rated coffee shops around here?,Travel Guide
+Are there any interesting art galleries nearby?,Travel Guide
+Where can I get a haircut?,Travel Guide
+What is the closest shopping mall?,Travel Guide
+Are there any nature reserves nearby?,Travel Guide
+What is a good spot for a picnic?,Travel Guide
+Where can I find a farmers market?,Travel Guide
+Are there any historical landmarks I should visit?,Travel Guide
+What is the best way to explore this city?,Travel Guide
+Where can I find a local guide?,Travel Guide
+What are the best viewpoints in the area?,Travel Guide
+Play some music.,Entertainment
+Can you find a good podcast?,Entertainment
+What are the top songs right now?,Entertainment
+Play the latest hits.,Entertainment
+Can you recommend an audiobook?,Entertainment
+Find me a radio station that plays classic rock.,Entertainment
+What is trending in music right now?,Entertainment
+Play something relaxing for this drive.,Entertainment
+What are the best songs from the 80s?,Entertainment
+Can you play a comedy podcast?,Entertainment
+What is a good playlist for a road trip?,Entertainment
+Play some jazz music.,Entertainment
+Can you find me a thrilling audiobook?,Entertainment
+What is a good soundtrack for a long drive?,Entertainment
+Play a mix of popular songs.,Entertainment
+Can you suggest some indie music?,Entertainment
+What are some classic movies I should watch?,Entertainment
+Find me an interesting documentary.,Entertainment
+Can you play some motivational speeches?,Entertainment
+What is a good series to binge-watch?,Entertainment
+What is the latest news podcast?,Entertainment
+Can you play some acoustic music?,Entertainment
+What is a good playlist for night driving?,Entertainment
+Play some instrumental music.,Entertainment
+Can you recommend a romantic comedy film?,Entertainment
+What are some top-rated TV shows right now?,Entertainment
+Find me a playlist for working out.,Entertainment
+What is a good horror movie to watch?,Entertainment
+Can you find some relaxing soundscapes?,Entertainment
+What is the latest in pop culture?,Entertainment
+Can you play some classic country songs?,Entertainment
+What are some good playlists for studying?,Entertainment
+Can you find a podcast about true crime?,Entertainment
+Play some upbeat dance music.,Entertainment
+What is a good playlist for a family road trip?,Entertainment
+Can you suggest a feel-good movie?,Entertainment
+What are some must-watch documentaries?,Entertainment
+Find me a playlist for rainy days.,Entertainment
+What are the top comedy specials available?,Entertainment
+Can you play some world music?,Entertainment
+What is a good podcast for learning something new?,Entertainment
+Can you recommend a fantasy novel?,Entertainment
+What is a good playlist for relaxation?,Entertainment
+Find me a cooking show to watch.,Entertainment
+What are some popular streaming shows right now?,Entertainment
+Can you suggest a music festival happening soon?,Entertainment
+Play some oldies but goodies.,Entertainment
+What is the latest buzz in entertainment news?,Entertainment
+Can you find me an inspiring audiobook?,Entertainment
+What are some good playlists for long drives?,Entertainment
+>>>>>>> 4789a245e1253bccb4d410a3f6be10f05e2588c3
