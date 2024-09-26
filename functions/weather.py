@@ -9,7 +9,7 @@ def get_weather_updates(city):
     response = requests.get(url)
     data = response.json()  
 
-    city_name = data['name']
+    city_name = city
     temperature = data['main']['temp']
     temperature_min= data['main']['temp_min']
     temperature_max= data['main']['temp_max']

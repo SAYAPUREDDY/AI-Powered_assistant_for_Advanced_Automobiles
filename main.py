@@ -39,8 +39,9 @@ if __name__ == '__main__':
     #user_input=get_voice_input()
    
 
-    user_input="is it good day to travel?"
+    user_input=get_voice_input()
     print(user_input)
+
     if "exit" in user_input:
         speak("Goodbye")
     else:
@@ -48,21 +49,32 @@ if __name__ == '__main__':
         vectorstore = FAISS.load_local("data/knowledge_base", embedding,allow_dangerous_deserialization=True)
         response=predict.user_context_finder(vectorstore,user_input)
         response=response.strip()
+
+
         if response == "Weather":
                 print("Would you like to know the details of the weather?")
                 speak("Would you like to know the details of the weather?")
-                # time.sleep(1)
-                user_input="yes"
+                time.sleep(2)
+                user_input=get_voice_input()
                 if "yes" in user_input:
                     print("please tell me the location")
                     speak("Please tell me the location")
-                    location="munich"
+                    time.sleep(2)
+                    location=get_voice_input()
                     weather_report=weather.get_weather_updates(location)
 
                     if weather_report:
-                         print("Here is the weather report")
-                         response=predict.weather_answer_chain(weather_report,location)
-                         speak(response)
+                         while True:
+                            user_input=get_voice_input()
+                            print("listening.....")                             
+                            response=predict.weather_answer_chain(weather_report,user_input,location)
+                            print(response)
+                            speak(response)
+                            time.sleep(2)
+                            if user_input.lower() in ["exit", "quit", "stop"]:
+                                print("Assistant: Goodbye! Have a nice day!")
+                                break
+
                 elif "no" in user_input:
                      print("Okay , is there anything that i can help u with?")
                      speak("Okay, is there anything that I can help you with?")

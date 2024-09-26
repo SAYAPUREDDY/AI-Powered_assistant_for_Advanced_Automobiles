@@ -23,4 +23,4 @@ def weather_answer_chain(weather_report,city):
             response = model.generate_content([prompt, weather_report])
 
             # Print response from AI
-            return(f"Assistant: {response.text}")
+            return(f"{response.text}")
