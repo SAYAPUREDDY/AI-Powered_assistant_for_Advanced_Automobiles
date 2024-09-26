@@ -1,9 +1,11 @@
 import requests
 import datetime as dt
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 def get_weather_updates(city):
-    API_KEY = '9a718f69e5786c9dc14d6a051dc4e878'  
+    API_KEY = os.getenv("WEATHER_API_KEY")
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&APPID={API_KEY}&units=metric"
 
     response = requests.get(url)
@@ -34,6 +36,6 @@ def get_weather_updates(city):
     #     textfile.write(weather_paragraph)
     return weather_paragraph
 
-
+get_weather_updates("berlin")
 
 
