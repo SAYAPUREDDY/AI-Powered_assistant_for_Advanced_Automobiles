@@ -34,7 +34,7 @@ def get_voice_input():
     
 if __name__ == '__main__':
     print("Welcome to the AI in-car assistant")
-    # speak("Welcome to the AI in-car assistant")
+    speak("Welcome to the AI in-car assistant")
     #speak("Welcome to the AI in-car assistant")
    
 
@@ -72,6 +72,7 @@ if __name__ == '__main__':
                             time.sleep(2)
                             if user_input.lower() in ["exit", "quit", "stop"]:
                                 print("Assistant: Goodbye! Have a nice day!")
+                                #speak("Goodbye! Have a nice day!")
                                 break
 
                 elif "no" in user_input:

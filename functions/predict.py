@@ -86,7 +86,8 @@ def weather_answer_chain(weather_report,user_input,city):
                 f"Answer the user's question based on the provided weather data. "
                 f"Be creative and act as a guide to the user. "
                 f"Provide suggestions based on the provided weather data if user asks as suggest me."
-                f"Be precise with the words and only reply to the question")
+                f"Be precise with the words and only reply to the question"
+                f"if the user says stop or exit , stop the conversation and say goodbye")
 
         # Generate response from Google Gemini AI model
         response = model.generate_content([prompt, weather_report])

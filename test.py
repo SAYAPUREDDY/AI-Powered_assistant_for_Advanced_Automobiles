@@ -14,32 +14,31 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 city = "munich"
 
 # Get weather information for the city
-weather_report = weather.get_weather_updates(city)
+weather_report = "schematic diagram of the proposed system"
 
 # Conversation loop
 def conversation():
     while True:
         # Get user input
-        user_input = input("User: ")
+        user_input = "Generate caption"
 
         # If user wants to exit the conversation
-        if user_input.lower() in ["exit", "quit", "stop"]:
-            print("Assistant: Goodbye! Have a nice day!")
-            break
+        if user_input=="Generate caption":
 
         # Create prompt based on weather report and user input
-        prompt = (f"Here is the current weather information for {city}:\n\n"
-                  f"{weather_report}\n\n"
-                  f"Now, the user is asking: '{user_input}'. "
-                  f"Answer the user's question based on the provided weather data. "
-                  f"Be creative and act as a guide to the user. "
-                  f"Provide suggestions based on the provided weather data if user asks as suggest me."
-                  f"Be precise with the words and only reply to the question")
+            prompt = (f"Here is the description for the image i have captured\n\n"
+                    f"{weather_report}\n\n"
+                    f"Now, the user is asking: '{user_input}'. "
+                    f"Generate the captin for that image description fo social media "
+                    f"Be creative"
+                    f"provide three for each in humorous,serious,cute,short and sweet"
+                    f"Be precise with the words")
 
-        # Generate response from Google Gemini AI model
-        response = model.generate_content([prompt, weather_report])
+            # Generate response from Google Gemini AI model
+            response = model.generate_content([prompt, weather_report])
 
-        # Print response from AI
-        print(f"Assistant: {response.text}")
+            # Print response from AI
+            print(f"Assistant: {response.text}")
 
-
+if __name__
+conversation()
